@@ -18,6 +18,13 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
             // Multiple complication support can be added here with more descriptors
         ]
         
+        
+        let descriptors2 = [
+            CLKComplicationDescriptor(identifier: "complication", displayName: "piaxwatch", supportedFamilies: [CLKComplicationFamily.circularSmall, CLKComplicationFamily.extraLarge])
+            
+        ]
+        
+        
         // Call the handler with the currently supported complication descriptors
         handler(descriptors)
     }
@@ -42,11 +49,33 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     func getCurrentTimelineEntry(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimelineEntry?) -> Void) {
         // Call the handler with the current timeline entry
-        handler(nil)
+        
+        if(complication.family == .circularSmall)
+        {
+            let thecomp = CLKComplicationTemplateCircularSmallRingText(textProvider: CLKTextProvider(format: "Hej"), fillFraction: 0.75, ringStyle: .closed)
+            
+            let entry = CLKComplicationTimelineEntry(date: Date(), complicationTemplate: thecomp)
+                        
+            handler(entry)
+        }
+        
+        
     }
     
     func getTimelineEntries(for complication: CLKComplication, after date: Date, limit: Int, withHandler handler: @escaping ([CLKComplicationTimelineEntry]?) -> Void) {
         // Call the handler with the timeline entries after the given date
+        
+        if(complication.family == .circularSmall)
+        {
+            let thecomp = CLKComplicationTemplateCircularSmallRingText(textProvider: CLKTextProvider(format: "Hej"), fillFraction: 0.75, ringStyle: .closed)
+            
+            let entry = CLKComplicationTimelineEntry(date: Date(), complicationTemplate: thecomp)
+                        
+            handler([entry])
+        }
+        
+        
+        
         handler(nil)
     }
 
