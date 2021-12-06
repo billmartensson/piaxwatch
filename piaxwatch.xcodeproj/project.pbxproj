@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB02561275E05AC00508B82 /* piaxwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02560275E05AC00508B82 /* piaxwatchApp.swift */; };
+		ABB02563275E05AC00508B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02562275E05AC00508B82 /* ContentView.swift */; };
+		ABB02565275E05AE00508B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02564275E05AE00508B82 /* Assets.xcassets */; };
+		ABB02568275E05AE00508B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02567275E05AE00508B82 /* Preview Assets.xcassets */; };
+		ABB0256C275E05AE00508B82 /* piaxwatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ABB0256B275E05AE00508B82 /* piaxwatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABB02571275E05AF00508B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02570275E05AF00508B82 /* Assets.xcassets */; };
+		ABB02577275E05B000508B82 /* piaxwatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABB02576275E05B000508B82 /* piaxwatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABB0257C275E05B000508B82 /* piaxwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0257B275E05B000508B82 /* piaxwatchApp.swift */; };
+		ABB0257E275E05B000508B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0257D275E05B000508B82 /* ContentView.swift */; };
+		ABB02580275E05B000508B82 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0257F275E05B000508B82 /* NotificationController.swift */; };
+		ABB02582275E05B000508B82 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02581275E05B000508B82 /* NotificationView.swift */; };
+		ABB02584275E05B000508B82 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02583275E05B000508B82 /* ComplicationController.swift */; };
+		ABB02586275E05B100508B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02585275E05B100508B82 /* Assets.xcassets */; };
+		ABB02589275E05B100508B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02588275E05B100508B82 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB0256D275E05AE00508B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB02555275E05AC00508B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB0256A275E05AE00508B82;
+			remoteInfo = "piaxwatch WatchKit App";
+		};
+		ABB02578275E05B000508B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB02555275E05AC00508B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB02575275E05B000508B82;
+			remoteInfo = "piaxwatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB02591275E05B100508B82 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABB02577275E05B000508B82 /* piaxwatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB02595275E05B100508B82 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ABB0256C275E05AE00508B82 /* piaxwatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABB0255D275E05AC00508B82 /* piaxwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piaxwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB02560275E05AC00508B82 /* piaxwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxwatchApp.swift; sourceTree = "<group>"; };
+		ABB02562275E05AC00508B82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB02564275E05AE00508B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB02567275E05AE00508B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB0256B275E05AE00508B82 /* piaxwatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "piaxwatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB02570275E05AF00508B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB02576275E05B000508B82 /* piaxwatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "piaxwatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB0257B275E05B000508B82 /* piaxwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piaxwatchApp.swift; sourceTree = "<group>"; };
+		ABB0257D275E05B000508B82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABB0257F275E05B000508B82 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ABB02581275E05B000508B82 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		ABB02583275E05B000508B82 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		ABB02585275E05B100508B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB02588275E05B100508B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB0258A275E05B100508B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB0258B275E05B100508B82 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB0255A275E05AC00508B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB02573275E05B000508B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB02554275E05AC00508B82 = {
+			isa = PBXGroup;
+			children = (
+				ABB0255F275E05AC00508B82 /* piaxwatch */,
+				ABB0256F275E05AE00508B82 /* piaxwatch WatchKit App */,
+				ABB0257A275E05B000508B82 /* piaxwatch WatchKit Extension */,
+				ABB0255E275E05AC00508B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB0255E275E05AC00508B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0255D275E05AC00508B82 /* piaxwatch.app */,
+				ABB0256B275E05AE00508B82 /* piaxwatch WatchKit App.app */,
+				ABB02576275E05B000508B82 /* piaxwatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB0255F275E05AC00508B82 /* piaxwatch */ = {
+			isa = PBXGroup;
+			children = (
+				ABB02560275E05AC00508B82 /* piaxwatchApp.swift */,
+				ABB02562275E05AC00508B82 /* ContentView.swift */,
+				ABB02564275E05AE00508B82 /* Assets.xcassets */,
+				ABB02566275E05AE00508B82 /* Preview Content */,
+			);
+			path = piaxwatch;
+			sourceTree = "<group>";
+		};
+		ABB02566275E05AE00508B82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB02567275E05AE00508B82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABB0256F275E05AE00508B82 /* piaxwatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ABB02570275E05AF00508B82 /* Assets.xcassets */,
+			);
+			path = "piaxwatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		ABB0257A275E05B000508B82 /* piaxwatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0257B275E05B000508B82 /* piaxwatchApp.swift */,
+				ABB0257D275E05B000508B82 /* ContentView.swift */,
+				ABB0257F275E05B000508B82 /* NotificationController.swift */,
+				ABB02581275E05B000508B82 /* NotificationView.swift */,
+				ABB02583275E05B000508B82 /* ComplicationController.swift */,
+				ABB02585275E05B100508B82 /* Assets.xcassets */,
+				ABB0258A275E05B100508B82 /* Info.plist */,
+				ABB0258B275E05B100508B82 /* PushNotificationPayload.apns */,
+				ABB02587275E05B100508B82 /* Preview Content */,
+			);
+			path = "piaxwatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ABB02587275E05B100508B82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB02588275E05B100508B82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB0255C275E05AC00508B82 /* piaxwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB02596275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch" */;
+			buildPhases = (
+				ABB02559275E05AC00508B82 /* Sources */,
+				ABB0255A275E05AC00508B82 /* Frameworks */,
+				ABB0255B275E05AC00508B82 /* Resources */,
+				ABB02595275E05B100508B82 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB0256E275E05AE00508B82 /* PBXTargetDependency */,
+			);
+			name = piaxwatch;
+			productName = piaxwatch;
+			productReference = ABB0255D275E05AC00508B82 /* piaxwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB0256A275E05AE00508B82 /* piaxwatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB02592275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch WatchKit App" */;
+			buildPhases = (
+				ABB02569275E05AE00508B82 /* Resources */,
+				ABB02591275E05B100508B82 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB02579275E05B000508B82 /* PBXTargetDependency */,
+			);
+			name = "piaxwatch WatchKit App";
+			productName = "piaxwatch WatchKit App";
+			productReference = ABB0256B275E05AE00508B82 /* piaxwatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ABB02575275E05B000508B82 /* piaxwatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB0258E275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch WatchKit Extension" */;
+			buildPhases = (
+				ABB02572275E05B000508B82 /* Sources */,
+				ABB02573275E05B000508B82 /* Frameworks */,
+				ABB02574275E05B000508B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "piaxwatch WatchKit Extension";
+			productName = "piaxwatch WatchKit Extension";
+			productReference = ABB02576275E05B000508B82 /* piaxwatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB02555275E05AC00508B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					ABB0255C275E05AC00508B82 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					ABB0256A275E05AE00508B82 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					ABB02575275E05B000508B82 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = ABB02558275E05AC00508B82 /* Build configuration list for PBXProject "piaxwatch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB02554275E05AC00508B82;
+			productRefGroup = ABB0255E275E05AC00508B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB0255C275E05AC00508B82 /* piaxwatch */,
+				ABB0256A275E05AE00508B82 /* piaxwatch WatchKit App */,
+				ABB02575275E05B000508B82 /* piaxwatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB0255B275E05AC00508B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB02568275E05AE00508B82 /* Preview Assets.xcassets in Resources */,
+				ABB02565275E05AE00508B82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB02569275E05AE00508B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB02571275E05AF00508B82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB02574275E05B000508B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB02589275E05B100508B82 /* Preview Assets.xcassets in Resources */,
+				ABB02586275E05B100508B82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB02559275E05AC00508B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB02563275E05AC00508B82 /* ContentView.swift in Sources */,
+				ABB02561275E05AC00508B82 /* piaxwatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB02572275E05B000508B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB02580275E05B000508B82 /* NotificationController.swift in Sources */,
+				ABB0257E275E05B000508B82 /* ContentView.swift in Sources */,
+				ABB02584275E05B000508B82 /* ComplicationController.swift in Sources */,
+				ABB0257C275E05B000508B82 /* piaxwatchApp.swift in Sources */,
+				ABB02582275E05B000508B82 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB0256E275E05AE00508B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB0256A275E05AE00508B82 /* piaxwatch WatchKit App */;
+			targetProxy = ABB0256D275E05AE00508B82 /* PBXContainerItemProxy */;
+		};
+		ABB02579275E05B000508B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB02575275E05B000508B82 /* piaxwatch WatchKit Extension */;
+			targetProxy = ABB02578275E05B000508B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB0258C275E05B100508B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB0258D275E05B100508B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABB0258F275E05B100508B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxwatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "piaxwatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "piaxwatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		ABB02590275E05B100508B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxwatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "piaxwatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "piaxwatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		ABB02593275E05B100508B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = piaxwatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "piaxwatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.piaxwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		ABB02594275E05B100508B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = piaxwatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "piaxwatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.piaxwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		ABB02597275E05B100508B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxwatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB02598275E05B100508B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piaxwatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.piaxwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB02558275E05AC00508B82 /* Build configuration list for PBXProject "piaxwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB0258C275E05B100508B82 /* Debug */,
+				ABB0258D275E05B100508B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB0258E275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB0258F275E05B100508B82 /* Debug */,
+				ABB02590275E05B100508B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB02592275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB02593275E05B100508B82 /* Debug */,
+				ABB02594275E05B100508B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB02596275E05B100508B82 /* Build configuration list for PBXNativeTarget "piaxwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB02597275E05B100508B82 /* Debug */,
+				ABB02598275E05B100508B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB02555275E05AC00508B82 /* Project object */;
+}
