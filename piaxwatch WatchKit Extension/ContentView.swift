@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var sometext = "Hej"
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        NavigationView {
+            VStack {
+                Text(sometext)
+                    .padding()
+                
+                Button(action: {
+                    sometext = "Tjena"
+                }) {
+                    Text("Tryck här!")
+                }
+                
+                NavigationLink(destination: DetailView()) {
+                    Text("Läs mer...")
+                }
+                
+                FancyTextView()
+                
+            }.onAppear(perform: {
+                var someone = Person()
+                
+            })
+        }
     }
 }
 

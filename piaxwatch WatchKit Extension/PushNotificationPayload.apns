@@ -2,7 +2,7 @@
     "aps": {
         "alert": {
             "body": "Test message",
-            "title": "Optional title",
+            "title": "En nyhet",
             "subtitle": "Optional subtitle"
         },
         "category": "myCategory",

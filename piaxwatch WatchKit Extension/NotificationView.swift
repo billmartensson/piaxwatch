@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct NotificationView: View {
+    
+    var title = "test test"
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Hello, World!")
+            
+            Text(title)
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .background(.blue)
+        }
     }
 }
 

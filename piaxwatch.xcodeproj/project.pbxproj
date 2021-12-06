@@ -21,6 +21,11 @@
 		ABB02584275E05B000508B82 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02583275E05B000508B82 /* ComplicationController.swift */; };
 		ABB02586275E05B100508B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02585275E05B100508B82 /* Assets.xcassets */; };
 		ABB02589275E05B100508B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB02588275E05B100508B82 /* Preview Assets.xcassets */; };
+		ABB0259A275E122A00508B82 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB02599275E122A00508B82 /* DetailView.swift */; };
+		ABB0259C275E138200508B82 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0259B275E138200508B82 /* Person.swift */; };
+		ABB0259D275E145600508B82 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0259B275E138200508B82 /* Person.swift */; };
+		ABB0259F275E14CE00508B82 /* FancyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0259E275E14CE00508B82 /* FancyTextView.swift */; };
+		ABB025A0275E14CE00508B82 /* FancyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0259E275E14CE00508B82 /* FancyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,9 @@
 		ABB02588275E05B100508B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB0258A275E05B100508B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB0258B275E05B100508B82 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABB02599275E122A00508B82 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ABB0259B275E138200508B82 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ABB0259E275E14CE00508B82 /* FancyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				ABB02560275E05AC00508B82 /* piaxwatchApp.swift */,
+				ABB0259E275E14CE00508B82 /* FancyTextView.swift */,
+				ABB0259B275E138200508B82 /* Person.swift */,
 				ABB02562275E05AC00508B82 /* ContentView.swift */,
 				ABB02564275E05AE00508B82 /* Assets.xcassets */,
 				ABB02566275E05AE00508B82 /* Preview Content */,
@@ -155,6 +165,7 @@
 			children = (
 				ABB0257B275E05B000508B82 /* piaxwatchApp.swift */,
 				ABB0257D275E05B000508B82 /* ContentView.swift */,
+				ABB02599275E122A00508B82 /* DetailView.swift */,
 				ABB0257F275E05B000508B82 /* NotificationController.swift */,
 				ABB02581275E05B000508B82 /* NotificationView.swift */,
 				ABB02583275E05B000508B82 /* ComplicationController.swift */,
@@ -305,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB0259C275E138200508B82 /* Person.swift in Sources */,
 				ABB02563275E05AC00508B82 /* ContentView.swift in Sources */,
 				ABB02561275E05AC00508B82 /* piaxwatchApp.swift in Sources */,
+				ABB0259F275E14CE00508B82 /* FancyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +328,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB02580275E05B000508B82 /* NotificationController.swift in Sources */,
+				ABB0259A275E122A00508B82 /* DetailView.swift in Sources */,
 				ABB0257E275E05B000508B82 /* ContentView.swift in Sources */,
 				ABB02584275E05B000508B82 /* ComplicationController.swift in Sources */,
+				ABB0259D275E145600508B82 /* Person.swift in Sources */,
 				ABB0257C275E05B000508B82 /* piaxwatchApp.swift in Sources */,
 				ABB02582275E05B000508B82 /* NotificationView.swift in Sources */,
+				ABB025A0275E14CE00508B82 /* FancyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
